@@ -1,4 +1,5 @@
 import {FC} from 'react';
+import styles from '../styles/sample_button.module.scss'
 
 type Props = {
   onClick?:() => void
@@ -9,7 +10,7 @@ type Props = {
 const SampleButton:FC<Props> = (props) => {
   const {onClick,label,bgc = '#4752ff'} = props
   return (
-    <button style={{backgroundColor: bgc, padding: '10px 30px', color: 'white'}} onClick={onClick}>
+    <button className={styles.sample} style={{backgroundColor: bgc}} onClick={onClick}>
       {label}
     </button>
   );
