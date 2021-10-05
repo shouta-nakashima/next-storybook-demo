@@ -1,4 +1,10 @@
 import '../styles/globals.css';
+import * as Image from 'next/image';
+
+Object.defineProperty(Image, 'default', {
+  configurable: true,
+  value: props => <img {...props} />
+});
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
