@@ -4,7 +4,7 @@ import {ComponentStory,ComponentMeta} from '@storybook/react'
 import SampleButton from "../SampleButton";
 
 export default {
-  title:'sample/button',
+  title:'components/sample/button',
   component:SampleButton,
   argTypes: {
     bgc: { control: 'color' },
