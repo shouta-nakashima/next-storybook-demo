@@ -126,3 +126,23 @@ export const parameters = {
   },
 };
 ```
+
+### next/imageを適応できるようにする
+
+```.storybook/preview.js
+//追加
+import * as Image from 'next/image';
+
+Object.defineProperty(Image, 'default', {
+  configurable: true,
+  value: props => <img {...props} />
+});
+
+```
+
+#### package.jsonを修正
+```package.json
+ "scripts": {
+    "storybook": "start-storybook -s ./public -p 6006",
+  },
+```
