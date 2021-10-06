@@ -1,5 +1,13 @@
 # nextjsとstorybookのセットアップ
 
+## 参考にした記事など
+
+[セットアップ全般](https://zenn.dev/nus3/articles/257d724e24a39b756b5a)
+
+[chromatic](https://dev.classmethod.jp/articles/chromatic-storybook-review-and-deploy/)
+
+[storybook in figma](https://code-log.hatenablog.com/entry/2020/08/31/161537)
+
 ### nextjsのインストール
 
 `npx create-next-app`
