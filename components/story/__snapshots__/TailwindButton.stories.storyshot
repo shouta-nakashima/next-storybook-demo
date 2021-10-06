@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots components/tailwind/button Base Button 1`] = `
+<button
+  className="w-80 h-10 text-yellow-300 bg-black rounded-full"
+  type="button"
+>
+  Base
+</button>
+`;
