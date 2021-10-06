@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots components/sample/button Default Button 1`] = `
+<button
+  style={
+    Object {
+      "backgroundColor": "#4752ff",
+    }
+  }
+>
+  Sample
+</button>
+`;
+
+exports[`Storyshots components/sample/button Hello Button 1`] = `
+<button
+  style={
+    Object {
+      "backgroundColor": "red",
+    }
+  }
+>
+  HELLO
+</button>
+`;
